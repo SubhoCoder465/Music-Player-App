@@ -206,9 +206,37 @@ body {
 
 .album {
     width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.album-img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.song-img{
+    width: 100%;
+    border-radius: px;
+}
+.song-name{
+    font-weight: 700;
+    margin: 1.5rem 0 0.25rem 0;
+}
+.singer-name{
+    margin: 0.25rem 0 1.5rem 0;
+    opacity: 0.7;
+    font-size: small;
 }
 
-
+.heart-icon-love{
+    font-size: 1.25rem;
+}
+.heart-icon-love,.song-img,.song-name,.singer-name:hover{
+    cursor: pointer;
+}
 .player {
     width: 50%;
 }
@@ -226,6 +254,7 @@ body {
 }
 
 .player-control-icon:hover {
+    cursor: pointer;
     opacity: 1;
 }
 
