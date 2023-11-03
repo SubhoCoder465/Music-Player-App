@@ -222,6 +222,7 @@ body {
     border-radius: px;
 }
 .song-name{
+    /* font-size: 1rem; */
     font-weight: 700;
     margin: 1.5rem 0 0.25rem 0;
 }
@@ -286,4 +287,28 @@ body {
 
 .controls {
     width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.play-box-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 10px;
+    border: 1px solid #fff;
+    border-radius: 2.5px;
+    padding: 2.5px;
+}
+.fa-play{
+    font-size: 0.5rem;
+}
+.volume{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.fa-volume-low{
+    margin-right: 3px;
 }
