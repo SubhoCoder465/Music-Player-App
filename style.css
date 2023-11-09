@@ -230,6 +230,7 @@ body {
 .close-btn{
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 .close-btn i{
     color: white;
